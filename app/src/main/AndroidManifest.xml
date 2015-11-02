@@ -15,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GameAcitvity" >
+        <activity
+            android:name=".GameAcitvity"
+            android:theme="@style/FullScreen" >
+        </activity>
+        <activity android:name=".HighScoreActivity" >
         </activity>
     </application>
 
